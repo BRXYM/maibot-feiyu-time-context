@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "id": "github.brxym.feiyu-time-context",
+  "name": "肥鱼时间上下文",
+  "version": "1.3.0",
+  "description": "最新来信决定话题；历史记忆降为背景，承接式追问保留前文；按时间整理对话并由AI保存长期摘要与人物印象，不删除原记录。",
+  "author": {
+    "name": "BRXYM",
+    "url": "https://github.com/BRXYM"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/BRXYM/maibot-feiyu-time-context"
+  },
+  "host_application": {
+    "min_version": "1.3.19",
+    "max_version": "1.3.99"
+  },
+  "sdk": {
+    "min_version": "2.21.0",
+    "max_version": "2.21.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "chat.get_private_streams",
+    "message.get_by_time_in_chat",
+    "llm.generate"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
